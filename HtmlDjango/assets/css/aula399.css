@@ -1,0 +1,20 @@
+/*
+ID, Classes, atributos e pseudo-classes, elementos e pseudo-elementos
+
+regra de aplicação:
+espeficidade
+empate
+style
+*/
+p::first-letter{
+    font-size: 24px;
+}
+
+
+#p{
+    background-color: darkkhaki ;
+}
+
+body p{
+    background-color: darkorange;
+}

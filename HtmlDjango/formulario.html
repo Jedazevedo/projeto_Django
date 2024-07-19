@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        label-2{
+            cursor: pointer;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    
+
+<!---------------------------------------------------------------------->
+<!--FORMULÁRIO-->
+<H1>FORMULÁRIO</H1>
+<form action="#" method="get" target="_blank" autocomplete="off">
+    <section>
+        <h1>cabeça</h1>
+        <p>Formulário</p>
+        <fieldset>
+            <legend>Descrição</legend>
+            <p><input type="text" placeholder="Nome" required></p>
+            <p><input type="text" id="nome" name="Nome" placeholder="Sobrenome" required></p>
+
+        </fieldset>
+    </section>
+    <section>
+        <p>
+            <label for="number">number</label>
+                <input type="number" placeholder="Digite um numero" min="10" max="50">
+            
+        </p>
+        <p>
+            <button type="submit">Enviar</button>  <!--Submit envia o formulario que está dentro desse form-->
+            <button type="reset">Reset</button>
+        </p>
+    </section>
+    
+</form>
+
+
+
+
+<form action="#">
+    <section>
+        <H2>Formulário 2</H2>
+        <p>
+            <label for="label-id" class="label-2">
+                Sou um Dev 0
+                <input type="checkbox" placeholder="Nome" id="label-id" value="sim" checked>
+            </label>
+        </p>
+        <p>
+            <label for="label-id" class="label-2">
+                Sou um Dev 1
+                <input type="checkbox" placeholder="Nome" id="label-id" value="sim" checked>
+            </label>
+        </p>
+        <p>
+            <label for="label-id" class="label-2">
+                Sou um Dev 3
+                <input type="checkbox" placeholder="Nome" id="label-id" value="sim" checked>
+            </label>
+        </p>
+    </section>
+
+
+
+    <section>
+        <H2>Formulário 3</H2>
+        <p>
+            <label for="feminino" class="label-2">
+                Feminino
+                <input type="radio" id="feminino" name="genero" value="feminino">
+            </label>
+        </p>
+        <p>
+            <label for="masculino" class="label-2">
+                Masculino
+                <input type="radio" id="masculino" name="genero" value="masculino" >
+            </label>
+        </p>
+        <p>
+            <label for="outro-genero">
+                Outro
+                <input type="radio" id="outro-genero" name="genero" value="outro-genero">
+            </label>
+        </p>
+        <p>
+            <label for="nome">
+                Data
+                <input type="date" id="data" name="nome" value="data">
+            </label>
+        </p>
+        <p>
+            <label for="nome">
+                Data time
+                <input type="datetime-local" id="datatime" name="nome" value="datatime" accept=".png,.svg,image/*" multiple>
+            </label>
+        </p>
+        <p>
+            <label for="time">
+                Data time
+                <input type="time" id="datatime" name="nome" value="datatime">
+            </label>
+        </p>
+        <p>
+            <label for="cor">
+                Cor
+                <input type="color" id="datatime" name="nome" value="datatime">
+            </label>
+        </p>
+
+        <p>
+            <label for="email">
+                E-mail
+                <input type="email" id="email" name="nome"  placeholder="ex.:email@email.com">
+            </label>
+        </p>
+        <p>
+            <label for="file">
+                Arquivo
+                <input type="file" id="file" name="nome"  placeholder="arquivo">
+            </label>
+        </p>
+    </section>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

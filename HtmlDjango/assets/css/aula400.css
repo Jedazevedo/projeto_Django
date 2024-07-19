@@ -1,0 +1,17 @@
+/* herença*/
+
+p::first-letter{
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+
+}
+
+p{
+    /*font-size: initial; Faz herdar a herança*/
+    font-size: inherit; /*Desabilita a herença*/
+    color: rgb(121, 119, 119);
+}
+
+body{
+    color: red;
+}

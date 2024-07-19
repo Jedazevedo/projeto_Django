@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*
+============================================================================
+a unidade REM vai usar parametros setados na nossa fonta da página, 
+nesse caso estamos usando o html.
+a vantagem de utilização do REM é devido a ele se ajustar conforme o navegador
+se o usúario alterar as configurações para aumentar a fonte do navegador, 
+automaticamente ele vai alterar as configuraçoes da nossa página.
+Dizemos que o EM & REM são medidas relativas.
+O px é uma medida absoluta. 
+Segue um exemplo abaixo de ultilação do REM.
+EM funciona da mesma forma, porém o EM busca as medidas de um tag próxima
+=============================================================================
+EX:.........................................................................
+html{
+    font-size: 100px;
+}
+
+.pai{
+    width: 100rem;
+    height: 1rem;
+    background-color: rgb(104, 119, 80);
+}
+
+p{
+   font-size: 0.16rem;
+}
+*/
+
+html{
+    font-size: 100%;
+    scroll-behavior: smooth;
+    
+}
+
+/* VW = view port, 100 = 100% da viewPort*/
+.pagina1{
+    width: 100vw;
+    height: 100vw;
+    background-color: rgb(218, 200, 41);
+}
+.pagina2{
+    width: 100vw;
+    height: 100vw;
+    background-color: rgb(41, 79, 218);
+}
+.pagina3{
+    width: 100vw;
+    height: 100vw;
+    background-color: rgb(41, 218, 62);
+}
+
+

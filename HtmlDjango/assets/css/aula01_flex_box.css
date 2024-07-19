@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*exemplos de funcionamento do flex box*/
+/*https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
+.flex-container{
+    display: flex; /*quando eu ativo essa opção de display flex eu ganho: flex-direction, align-items, justify-content */
+
+    flex-direction: row; /* vai alinhar os itens ou em colunas ou em linhas*/
+
+    justify-content: space-around; /*Vai alinhar os elementos ou no inicio, ou no fim, ou com espaco entre eles etc    */
+
+    align-items:center;
+       
+    background-color: rgb(66, 66, 12);
+    
+    
+}
+
+.flex-item:nth-child(3){
+    flex: 10 1 320px;
+    height: 200px;
+    background-color: rgb(183, 0, 255);
+}
+

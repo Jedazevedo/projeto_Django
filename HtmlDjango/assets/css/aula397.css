@@ -1,0 +1,35 @@
+/* pseudo-classes*/
+
+/*even = pares*/
+ul li:nth-child(even){
+    background-color: rebeccapurple;
+}
+
+/*odd = impares*/
+ul li:nth-child(odd){
+    background-color: darkcyan;
+}
+
+ul li:nth-child(2n+5){
+    background-color: rgb(236, 27, 27);
+}
+
+/*Aula 398*/
+p{
+    font-size: 16px;
+}
+p::first-letter{
+    font-size: 50px ;
+    display: block;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+p::first-line{
+    background-color: chocolate;
+}
+
+p::selection{
+    background-color: rgb(221, 255, 0);
+    color: rgb(121, 59, 59);
+}

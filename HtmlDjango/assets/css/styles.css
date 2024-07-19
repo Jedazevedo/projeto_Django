@@ -1,0 +1,35 @@
+.caixa{
+
+    background-color: red;
+    width: 120px;
+    height: 120px;
+}
+
+/* seletores */
+/*
+
+## seleciona todos os elementos da página
+*{
+    background-color: rgb(167, 183, 183);
+}                        
+
+
+## selecionar por tags
+body div section p,
+body div section h1 {
+    color: rgb(225, 8, 8);
+
+}
+
+## selecionar por tags
+h1, p{
+    color: green;
+}*/
+
+h2.heading, h3.heading{
+    color: red;
+}
+
+
+
+

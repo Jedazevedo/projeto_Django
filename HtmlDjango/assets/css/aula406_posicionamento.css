@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+}
+
+.pai{
+
+}
+
+.filha1, .filha2, .filha3{
+    width: 150px;
+    height: 150px;
+    background-color: darkgoldenrod;
+    margin: 10px;
+    position: static;
+}
+
+.filha2{
+    background-color: darkgreen;
+    position: fixed; /*fica com a caixa fixada */
+    z-index: 1;
+    top: 30%;
+    right: 0;
+}
+
+.filha1{
+   /* position: absolute; vai fazer o elemento fixar na tela
+    seria como o elemento fosse puxado para fora do backgroud do 
+    fundo e fixado na tela*/
+   
+    position:relative;
+    z-index: 2;  
+    
+}
+
+.filha3{
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+.outra{
+    font-size: 16px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    
+}
+
+ul{
+    height: 100px;
+    overflow: auto;
+}
+
+ul li.sticky{
+   position: sticky;
+   background-color: darkkhaki;
+   top: 0;
+}

@@ -1,0 +1,44 @@
+/* seletores de pseudo classes*/
+
+
+.heading-2{
+    transition: all 500ms ease-in-out;
+
+}
+.heading-2:hover{
+    color: rgb(255, 255, 255);
+    background-color: blue;
+}
+
+a{
+    color: darkorange;
+}
+
+a:link{
+    color: deeppink;
+}
+
+a:visited{
+    color: blue;
+}
+
+/*
+input:focus{
+    box-shadow: 0,0,5px rgba(red, green, blue, alpha);
+    outline: white;
+}
+input:disabled{
+    background-color: black;
+}
+*/
+
+
+[meu-checkbox]:checked + p{
+    background-color: red;
+
+}
+
+
+.pai .lista li:first-child{
+    background-color: rebeccapurple;
+}

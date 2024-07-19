@@ -1,0 +1,25 @@
+p{
+    color: rgb(17, 17, 17);
+    background-color:yellow;/*
+    font-size: 20px;
+    font-size: italic;
+    font-weight: bold;
+    direction: ltr;
+    letter-spacing: 1px;
+    word-spacing: 50px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: overline underline;*/
+   
+  
+   
+
+    
+}
+p:hover{
+    text-indent: 50px;
+    text-shadow: 2px 2px 5px rgb(126, 136, 61);
+    transition: 800ms;
+    text-transform:capitalize;
+
+}

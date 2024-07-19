@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+
+        <p>
+
+            <label for="range">Range</label>
+            <input type="range" name="range" id="range" step="2">
+            
+
+            <input type="range" list="tickmarks" step="20">
+            <datalist id="tickmarks">
+                <option value="0" label="0%"></option>
+                <option value="20"></option>
+                <option value="40" label="40%"></option>
+                <option value="60"></option>
+                <option value="80"></option>
+                <option value="100"></option>
+            </datalist>
+
+            
+        </p>
+        <p>
+            <label for="url">url</label>
+            <input type="url" name="url" id="url">
+        </p>
+
+        <p>
+            <label for="search"></label>
+            <input type="search" name="search" id="search">
+        </p>
+
+        <p>
+            <label for="select">search</label>
+                <select name="select" id="select">
+                
+                    <optgroup label="arvore geral">
+
+                            <option value="qualquer coisa" label="label1" selected></option>
+                            <option value="qualquer coisa" label="label2" disabled></option>
+                            <option value="qualquer coisa" label="label3"></option>
+
+                    </optgroup>
+
+                </select>
+        </p>
+
+
+        <p>
+            <label for="textarea"> textarea</label>
+            <textarea name="textarea" id="textarea" cols="100" rows="1"></textarea>
+        </p>
+
+        <p>
+            <button type="reset">Reset</button>
+            <button type="submit">Enviar</button>
+        </p>
+
+    </form>
+</body>
+</html>

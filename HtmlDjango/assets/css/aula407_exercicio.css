@@ -1,0 +1,14 @@
+
+*{
+    margin: 0;
+}
+.heading{
+    background-color: black;
+}
+
+.heading ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    
+}
