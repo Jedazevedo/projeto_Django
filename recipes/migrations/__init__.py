@@ -1,0 +1,1 @@
+# relaacionado as migrações do django, orm

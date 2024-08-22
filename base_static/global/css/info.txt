@@ -1,0 +1,7 @@
+caso queira abrir mais um caminho global de css 
+usar settings.py
+STATICFILES_DIRS =[
+    BASE_DIR / 'base_static',
+]
+
+no link devemos informar a pasta global primeiro devido ao base dir já puxar a pasta static
